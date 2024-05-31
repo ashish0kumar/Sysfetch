@@ -1,6 +1,7 @@
 import platform
 import psutil
 from colorama import init, Fore
+import pyfiglet
 
 init(autoreset=True)
 
@@ -62,10 +63,9 @@ def get_process_information():
 
     return process_info
 
-def display_information(category_name, info_dict):
-    print(" ")
+def display_information(category_name, info_dict): 
+    print("\n")
     print(Fore.CYAN + f"{category_name} Information:")
-    print(Fore.CYAN + "--------------------")
     for key, value in info_dict.items():
         print(f"{Fore.BLUE}{key}:{Fore.RESET} {value}")
 
@@ -75,8 +75,11 @@ if __name__ == "__main__":
     battery_info = get_battery_information()
     process_info = get_process_information()
 
+    print("\n")
+    print(pyfiglet.figlet_format("Sysfetch", font = "slant"))
+
     display_information("System", system_info)
     display_information("Network", network_info)
     display_information("Battery", battery_info)
     display_information("Process", process_info)
-    print(" ")
+    print("\n")
