@@ -1,6 +1,8 @@
 # System-fetch
 A simple script written in python to fetch system info
 
+![script output](Sysfetch.png)
+
 ## Fetched System Information
 ### System Information
 
