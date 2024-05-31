@@ -41,7 +41,7 @@ A simple script written in Python to fetch your System info
 
 ## Usage
 
-1. Clone the repo
+1. Clone this repo:
 ```bash
 git clone https://github.com/ashish0kumar/System-fetch.git
 ```
@@ -51,7 +51,7 @@ git clone https://github.com/ashish0kumar/System-fetch.git
 pip install -r requirements.txt
 ```
 
-3 Run the sysfetch.py script:
+3 You can now run the sysfetch.py script:
 ```bash
 python sysfetch.py
 ```
