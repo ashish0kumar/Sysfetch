@@ -1,4 +1,4 @@
-# System-fetch
+# Sys-fetch
 A simple script written in Python to fetch your System info
 
 ![script output](Sysfetch.png)
