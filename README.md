@@ -3,8 +3,8 @@ A simple script written in Python to fetch your System info
 
 ![script output](Sysfetch.png)
 
-## Fetched System Information
-### System Information
+## ✨ Features
+### ℹ️ System Information
 
 - System: Operating System Name
 - Node Name: Hostname of the machine
@@ -18,28 +18,28 @@ A simple script written in Python to fetch your System info
 - RAM (Used): Used RAM in GB
 - RAM (Free): Free RAM in GB
 
-### Disk Information
+### 💽 Disk Information
 
 - Disk Space (Total): Total Disk Space in GB
 - Disk Space (Used): Used Disk Space in GB
 - Disk Space (Free): Free Disk Space in GB
 
-### Network Information
+### 🌐 Network Information
 
 - Bytes Sent: Total Bytes Sent over the Network
 - Bytes Received: Total Bytes Received over the Network
 
-### Battery Information
+### 🔋 Battery Information
 
 - Percentage: Battery Percentage (if applicable)
 - Plugged: Whether the device is plugged in or running on battery (Yes/No)
 
-### Process Information
+### 🔄 Process Information
 
 - Current Processes: Number of Currently Running Processes
 
 
-## Usage
+## 🚀 Usage
 
 1. Clone this repo:
 ```bash
@@ -56,5 +56,5 @@ pip install -r requirements.txt
 python sysfetch.py
 ```
 
-## License
+## 📜 License
 This project is licensed under the MIT License.
